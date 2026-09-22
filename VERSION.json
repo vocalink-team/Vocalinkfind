@@ -1,7 +1,8 @@
 {
-  "version": "1.0.0",
-  "updated": "2026-09-22",
+  "version": "1.0.1",
+  "updated": "2026-09-22T00:15:11Z",
   "changes": [
-    "Vocalinkfindの初期Webアプリを作成"
-  ]
+    "chore: add automatic version management"
+  ],
+  "commit": "735d7f3cd4d639be7cb9915a42faa9a0fcf83e11"
 }
