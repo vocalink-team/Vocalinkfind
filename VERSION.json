@@ -1,10 +1,11 @@
 {
-  "version": "v1.1.0",
-  "updated": "2026-09-22T07:51:37Z",
+  "version": "v1.2.0",
+  "updated": "2026-09-22T07:52:49Z",
   "changes": [
+    "feat: add location sharing entry point",
     "feat: add location sharing foundation",
     "fix: synchronize automatic version bumping",
     "chore: add automatic version management"
   ],
-  "commit": "6bba19881484f4e583163f295e9df0af368e6d61"
+  "commit": "edd14179dee86ed2aed5438bb4846b906b3acf20"
 }
