@@ -1,8 +1,9 @@
 {
-  "version": "1.0.1",
-  "updated": "2026-09-22T00:15:11Z",
+  "version": "v1.0.2",
+  "updated": "2026-09-22T00:15:23Z",
   "changes": [
+    "fix: synchronize automatic version bumping",
     "chore: add automatic version management"
   ],
-  "commit": "735d7f3cd4d639be7cb9915a42faa9a0fcf83e11"
+  "commit": "fd3ccbed9894591057c555af5df1e7a1fd81fe6c"
 }
