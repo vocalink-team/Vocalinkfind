@@ -19,9 +19,4 @@ function createShare(){const title=$("shareTitle").value.trim()||"位置情報�
 async function joinShare(){const code=$("joinCode").value.trim();if(!code){msg("共有コードを入力してください");return}const {error}=await sb.rpc("join_location_share",{p_share_code:code});if(error){msg("参加できません: "+error.message);return}msg("共有に参加しました。");await refreshLocations()}
 function subscribeRealtime(){if(channel)sb.removeChannel(channel);channel=sb.channel("vocalinkfind-locations").on("postgres_changes",{event:"*",schema:"public",table:"user_locations"},payload=>{if(payload.new?.user_id)markerFor(payload.new.user_id,payload.new,payload.new.user_id===session.user.id?"自分":"共有メンバー");$("lastUpdated").textContent="リアルタイム更新 "+new Date().toLocaleTimeString("ja-JP")}).subscribe()}
 async function init(){const {data:{session:s}}=await sb.auth.getSession();session=s;if(!session){location.href="login.html";return}$("authStatus").textContent=session.user.email||"ログイン中";await refreshLocations();subscribeRealtime()}
-$("startLocation").addEventListener("click",startLocation);
-$("stopLocation").addEventListener("click",stopLocation);
-$("createShare").addEventListener("click",createShare);
-$("joinShare").addEventListener("click",joinShare);
-$("logoutButton").addEventListener("click",async()=>{stopLocation();await sb.auth.signOut();location.href="login.html"});
-init();
+$("startLocation").addEventListener("click",startLocation);$("stopLocation").addEventListener("click",stopLocation);$("createShare").addEventListener("click",createShare);$("joinShare").addEventListener("click",joinShare);$("logoutButton").addEventListener("click",async()=>{stopLocation();await sb.auth.signOut();location.href="login.html"});init();
