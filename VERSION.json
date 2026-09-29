@@ -1,7 +1,8 @@
 {
-  "version": "v1.3.2",
-  "updated": "2026-09-29T09:00:00Z",
+  "version": "v1.3.3",
+  "updated": "2026-09-29T09:48:03Z",
   "changes": [
+    "chore: bump version for signup email fix",
     "fix: improve signup email confirmation flow",
     "docs: update VocalinkFind location sharing status",
     "feat: implement realtime location sharing",
@@ -10,5 +11,5 @@
     "fix: synchronize automatic version bumping",
     "chore: add automatic version management"
   ],
-  "commit": "fc8bcda19667c2b2a19d0a57462bec50d52abeac"
+  "commit": "67d3eb32628ab8b153931a4f5f345ac902cf5303"
 }
