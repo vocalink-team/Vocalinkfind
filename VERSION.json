@@ -1,7 +1,8 @@
 {
-  "version": "v1.4.0",
-  "updated": "2026-10-03T11:22:07Z",
+  "version": "v1.4.1",
+  "updated": "2026-10-03T11:22:28Z",
   "changes": [
+    "chore: sync displayed version v1.4.0",
     "feat: add privacy-safe event tracking",
     "chore: bump version to v1.3.4",
     "fix: harden geolocation permission lifecycle",
@@ -9,5 +10,5 @@
     "fix: correct location share member RLS lookup",
     "chore: synchronize displayed version"
   ],
-  "commit": "8f5b5cf9a337dd7f4afc82e599bbaaf84d208067"
+  "commit": "a66d0fe81f4b5ed50bb959539a7c5eeff747c001"
 }
