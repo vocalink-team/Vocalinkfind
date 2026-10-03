@@ -1,7 +1,8 @@
 {
-  "version": "v1.3.3",
-  "updated": "2026-09-29T09:48:03Z",
+  "version": "v1.3.4",
+  "updated": "2026-10-03T05:06:57Z",
   "changes": [
+    "fix: harden geolocation permission lifecycle",
     "chore: bump version for signup email fix",
     "fix: improve signup email confirmation flow",
     "docs: update VocalinkFind location sharing status",
@@ -11,5 +12,5 @@
     "fix: synchronize automatic version bumping",
     "chore: add automatic version management"
   ],
-  "commit": "67d3eb32628ab8b153931a4f5f345ac902cf5303"
+  "commit": "de4996ea34e0bec0368cf9d79503f93b34d9087b"
 }
