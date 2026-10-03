@@ -1,7 +1,8 @@
 {
-  "version": "v1.4.9",
-  "updated": "2026-10-03T11:49:32Z",
+  "version": "v1.4.10",
+  "updated": "2026-10-03T11:56:54Z",
   "changes": [
+    "fix: version VocalinkFind app script cache",
     "fix: synchronize page versions during auto-version bump",
     "chore: final version sync v1.4.7",
     "chore: sync displayed version to v1.4.6",
@@ -12,5 +13,5 @@
     "fix: track location sharing only after geolocation succeeds",
     "fix: keep analytics free of coordinates and share codes"
   ],
-  "commit": "b4fbf9916ac1af246342cde0c8a70ad395827d3f"
+  "commit": "18efcee34b3a49491083f0bc1493898af36fdf4c"
 }
