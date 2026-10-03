@@ -1,15 +1,9 @@
 {
   "version": "v1.4.2",
-  "updated": "2026-10-03T11:36:23Z",
+  "updated": "2026-10-03",
   "changes": [
     "fix: track location sharing only after geolocation succeeds",
-    "chore: sync displayed version v1.4.0",
-    "feat: add privacy-safe event tracking",
-    "chore: bump version to v1.3.4",
-    "fix: harden geolocation permission lifecycle",
-    "fix: enforce active and unexpired location sharing in RLS",
-    "fix: correct location share member RLS lookup",
-    "chore: synchronize displayed version"
+    "fix: keep analytics free of coordinates and share codes"
   ],
   "commit": "d8b27391711dc5650ef30a012a4e09a4f8b26926"
 }
