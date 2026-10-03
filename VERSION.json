@@ -1,11 +1,12 @@
 {
-  "version": "v1.4.4",
-  "updated": "2026-10-03T11:37:45Z",
+  "version": "v1.4.5",
+  "updated": "2026-10-03T11:39:46Z",
   "changes": [
+    "fix: prevent VERSION.json-only auto-version loops",
     "chore: sync page version to v1.4.3",
     "chore: sync version v1.4.2",
     "fix: track location sharing only after geolocation succeeds",
     "fix: keep analytics free of coordinates and share codes"
   ],
-  "commit": "fc80c08e3455b4f28c2eb42a01f2d554df4b5d78"
+  "commit": "b23b42a05bc5b033fbd4058c810342d56efe3ab0"
 }
