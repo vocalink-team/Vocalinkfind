@@ -1,9 +1,10 @@
 {
-  "version": "v1.4.2",
-  "updated": "2026-10-03",
+  "version": "v1.4.3",
+  "updated": "2026-10-03T11:37:07Z",
   "changes": [
+    "chore: sync version v1.4.2",
     "fix: track location sharing only after geolocation succeeds",
     "fix: keep analytics free of coordinates and share codes"
   ],
-  "commit": "d8b27391711dc5650ef30a012a4e09a4f8b26926"
+  "commit": "5a8b3c73b6197f43e5dc437642f4df310c6bceee"
 }
