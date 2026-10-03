@@ -1,16 +1,11 @@
 {
   "version": "v1.3.4",
-  "updated": "2026-10-03T05:06:57Z",
+  "updated": "2026-10-03T05:10:00Z",
   "changes": [
     "fix: harden geolocation permission lifecycle",
-    "chore: bump version for signup email fix",
-    "fix: improve signup email confirmation flow",
-    "docs: update VocalinkFind location sharing status",
-    "feat: implement realtime location sharing",
-    "feat: add location sharing entry point",
-    "feat: add location sharing foundation",
-    "fix: synchronize automatic version bumping",
-    "chore: add automatic version management"
+    "fix: enforce active and unexpired location sharing in RLS",
+    "fix: correct location share member RLS lookup",
+    "chore: synchronize displayed version"
   ],
   "commit": "de4996ea34e0bec0368cf9d79503f93b34d9087b"
 }
