@@ -1,7 +1,8 @@
 {
-  "version": "v1.4.7",
-  "updated": "2026-10-03T11:40:54Z",
+  "version": "v1.4.8",
+  "updated": "2026-10-03T11:47:09Z",
   "changes": [
+    "chore: final version sync v1.4.7",
     "chore: sync displayed version to v1.4.6",
     "fix: record location sharing after first successful position",
     "fix: prevent VERSION.json-only auto-version loops",
@@ -10,5 +11,5 @@
     "fix: track location sharing only after geolocation succeeds",
     "fix: keep analytics free of coordinates and share codes"
   ],
-  "commit": "080d18a533b9a7243d533a10ae93a6bccba80727"
+  "commit": "cfb661de7c0810004b31578afc76298eea6186bf"
 }
