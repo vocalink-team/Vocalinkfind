@@ -1,11 +1,12 @@
 {
-  "version": "v1.3.4",
-  "updated": "2026-10-03T05:10:00Z",
+  "version": "v1.3.5",
+  "updated": "2026-10-03T05:07:11Z",
   "changes": [
+    "chore: bump version to v1.3.4",
     "fix: harden geolocation permission lifecycle",
     "fix: enforce active and unexpired location sharing in RLS",
     "fix: correct location share member RLS lookup",
     "chore: synchronize displayed version"
   ],
-  "commit": "de4996ea34e0bec0368cf9d79503f93b34d9087b"
+  "commit": "89981826a4476b44a2290d68d491369eb21393d2"
 }
