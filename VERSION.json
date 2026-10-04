@@ -1,7 +1,8 @@
 {
-  "version": "v1.6.0",
-  "updated": "2026-10-04T12:45:14Z",
+  "version": "v1.6.1",
+  "updated": "2026-10-04T12:46:43Z",
   "changes": [
+    "fix: sync unified UI cache and displayed version",
     "feat: unify Vocalink UI design language",
     "feat: manage owned VocalinkFind shares",
     "fix: version VocalinkFind app script cache",
@@ -15,5 +16,5 @@
     "fix: track location sharing only after geolocation succeeds",
     "fix: keep analytics free of coordinates and share codes"
   ],
-  "commit": "265242c3e86038c787226a3307fd3b2f046be393"
+  "commit": "6cda7bf3a252f133d8ddeb664fc4f9e526227e29"
 }
